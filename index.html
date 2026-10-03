@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday, Vashnavi</title>
+    <meta name="description" content="A sweet birthday surprise for Vashnavi." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <nav class="topbar">
+          <div class="brand">For Vashnavi</div>
+          <div class="nav-links">
+            <a href="#letter">Letter</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#moments">Moments</a>
+            <a href="#surprise">Surprise</a>
+          </div>
+        </nav>
+
+        <div class="hero-content">
+          <div class="text-block">
+            <p class="eyebrow">Happy Birthday, My Love</p>
+            <h1>Happy Birthday, Vashnavi — you are the prettiest part of my life.</h1>
+            <p class="subtitle">
+              Every day with you feels like a little fairytale. You make my world softer, sweeter,
+              and more beautiful. Today is all about celebrating the amazing girl you are.
+            </p>
+            <a class="cta" href="#letter">Open Your Surprise</a>
+          </div>
+
+          <div class="portrait-card">
+            <div class="portrait-frame">
+              <img
+                id="heroImage"
+                src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80"
+                alt="Vashnavi portrait"
+              />
+              <input type="file" id="heroImageUpload" style="display: none;" />
+            </div>
+            <div class="floating-badge">My favorite person</div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section id="letter" class="letter-section section">
+          <div class="section-heading">
+            <p class="eyebrow">A little note</p>
+            <h2 id="letterTitle">Birthday letter for Vashnavi</h2>
+          </div>
+
+          <div class="letter-box">
+            <p id="letterPara1">
+              Happy birthday, Vashnavi. Today is not just a celebration of your age, but of the beautiful soul you are and the love you bring into my life.
+            </p>
+            <p id="letterPara2">
+              You are the kind of person who makes everything feel lighter, warmer, and more beautiful. Your smile is my peace, your laughter is my joy, and your love is my greatest blessing.
+            </p>
+            <p id="letterPara3">
+              Thank you for being the sweet, kind, and unforgettable part of my world. Every moment with you feels special, every conversation feels meaningful, and every memory with you feels like a treasure I want to keep forever.
+            </p>
+            <p id="letterPara4">
+              I hope this new year gives you endless happiness, beautiful dreams, and all the love you deserve. May your life be filled with laughter, peace, and the sweetest surprises. You deserve all the happiness in the world, Vashnavi.
+            </p>
+            <p class="signature" id="letterSignature">Forever yours, always.</p>
+          </div>
+
+          <button class="edit-btn" onclick="editLetter()">Edit Letter</button>
+        </section>
+
+        <section id="gallery" class="gallery-section section">
+          <div class="section-heading">
+            <p class="eyebrow">Memory lane</p>
+            <h2>Our favorite moments</h2>
+          </div>
+
+          <div class="gallery-grid">
+            <div class="gallery-item tall">
+              <img class="gallery-img" src="https://images.unsplash.com/photo-1521119989659-a83eee488004?auto=format&fit=crop&w=900&q=80" alt="Memory 1" />
+              <input type="file" class="gallery-upload" style="display: none;" />
+            </div>
+            <div class="gallery-item">
+              <img class="gallery-img" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80" alt="Memory 2" />
+              <input type="file" class="gallery-upload" style="display: none;" />
+            </div>
+            <div class="gallery-item">
+              <img class="gallery-img" src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="Memory 3" />
+              <input type="file" class="gallery-upload" style="display: none;" />
+            </div>
+            <div class="gallery-item wide">
+              <img class="gallery-img" src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1200&q=80" alt="Memory 4" />
+              <input type="file" class="gallery-upload" style="display: none;" />
+            </div>
+          </div>
+
+          <button class="edit-btn" onclick="editGallery()">Edit Photos</button>
+        </section>
+
+        <section id="moments" class="timeline-section section">
+          <div class="section-heading">
+            <p class="eyebrow">Our story</p>
+            <h2>Little things I adore</h2>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <span class="dot"></span>
+              <div>
+                <h3 class="timeline-title">Your smile</h3>
+                <p class="timeline-text">The reason my heart feels safe and warm.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="dot"></span>
+              <div>
+                <h3 class="timeline-title">Your laugh</h3>
+                <p class="timeline-text">The sweetest sound in the whole world.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="dot"></span>
+              <div>
+                <h3 class="timeline-title">Your kindness</h3>
+                <p class="timeline-text">A beautiful heart that makes life brighter.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="dot"></span>
+              <div>
+                <h3 class="timeline-title">Us</h3>
+                <p class="timeline-text">My favorite chapter and my favorite person.</p>
+              </div>
+            </div>
+          </div>
+
+          <button class="edit-btn" onclick="editTimeline()">Edit Moments</button>
+        </section>
+
+        <section id="surprise" class="surprise-section section">
+          <div class="section-heading">
+            <p class="eyebrow">A hidden surprise</p>
+            <h2>For your special day</h2>
+          </div>
+
+          <div class="surprise-box">
+            <div class="surprise-card">
+              <h3 class="surprise-title">Birthday wish</h3>
+              <p class="surprise-text">May your heart always stay full of peace, love, and beautiful memories.</p>
+            </div>
+            <div class="surprise-card accent">
+              <h3 class="surprise-title">Promise</h3>
+              <p class="surprise-text">I will always be there to make you smile and hold your hand through every dream.</p>
+            </div>
+            <div class="surprise-card">
+              <h3 class="surprise-title">Dream</h3>
+              <p class="surprise-text">May this year bring you more joy, more love, and more reasons to shine.</p>
+            </div>
+          </div>
+
+          <button class="edit-btn" onclick="editSurprise()">Edit Surprise</button>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Made with love, for Vashnavi.</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
